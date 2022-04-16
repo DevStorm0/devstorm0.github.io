@@ -59,9 +59,9 @@ html, body{
 }
 
 .document{
-    height: 80%;
+    height: 70%;
     width: 75%;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -135,105 +135,24 @@ html, body{
 
 /* Document */
 
-.document h1{
-    font-family: "gnord";
-    font-size: 40px;
-    text-align: center;
-}
-
-.document h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    margin-left: 50px;
-    margin-top: 5px;
-}
-
-.document .line1{
-    background-color: #adadad;
-    width: 50%;
-    height: 2px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    margin-right: auto;
+.title1{
+    height: 40px;
+    width: 75%;
+    margin-top: 10px;
     margin-left: auto;
-}
-
-.document .line2{
-    background-color: #838383;
-    width: 90%;
-    height: 1px;
-    margin-top: 5px;
-    margin-bottom: 0px;
-    margin-left: 40px;
-}
-
-.document .box1{
-    width: 90%;
-    height: 150px;
-    background-color: #1a1a1a;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    margin-left: 40px;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.document .box2 .button1 {
-    width: 190px;
-    height: 45px;
-    border: none;
-    border-radius: 5px;
-    background-color: #6e5494;
-    box-shadow: 0px 5px 0px #523c74;
-    font-family: "orgon";
-    font-size: 30px;
-    float: left;
-    margin-top: 20px;
-    margin-left: 30px;
-    cursor: pointer;
-    transition: 0.25s;
-}
-
-.document .box2 .button1:hover {
-    box-shadow: 0px 0px 5px #b483ff;
-}
-
-.document .box2 .button2 {
-    width: 190px;
-    height: 45px;
-    border: none;
-    border-radius: 5px;
+    margin-right: auto;
+    border: solid 1px #404eed;
     background-color: #404eed;
-    box-shadow: 0px 5px 0px #2833a7;
-    font-family: "gnord";
-    font-size: 20px;
-    float: left;
-    margin-top: 20px;
-    margin-left: 30px;
-    cursor: pointer;
-    transition: 0.25s;
-}
-
-.document .box2 .button2:hover {
-    box-shadow: 0px 0px 7px #5053ff;
-}
-
-.document .box2 .button3 {
-    width: 190px;
-    height: 45px;
-    border: none;
-    border-radius: 5px;
-    background-color: #ff4500;
-    box-shadow: 0px 5px 0px #cc3600;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
     font-family: "orgon";
-    font-size: 30px;
-    float: left;
-    margin-top: 20px;
-    margin-left: 30px;
-    cursor: pointer;
-    transition: 0.25s;
+    font-size: 25px;
 }
 
-.document .box2 .button3:hover {
-    box-shadow: 0px 0px 7px #ff6600;
+.game{
+    display: block;
+    width: 100%;
+    height: 100%;
 }

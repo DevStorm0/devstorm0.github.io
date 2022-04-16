@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/games.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/devstorm.png">
+    <title>DevStorm | Games</title>
+</head>
+<script src="src/js/functions.js"></script>
+<body>
+    <div class="navbar">
+        <div onclick="go('./')" id="navcenter" class="center">
+            <img src="assets/images/devstorm.png">
+            <h1>DevStorm</h1>
+        </div>
+    </div>
+    <div class="document" id="document">
+        <h1 id="devstorm">Games</h1>
+        <div class="line1"></div>
+        <ul class="games">
+            <li style="list-style-type: none;">
+                <a>
+                    <h1>Fast Car</h1>
+                    <button onclick="go('./game.html?play=game&game=https://scratch.mit.edu/projects/676434162/embed')">Play</button>
+                </a>
+                <a>
+                    <h1>The Cat and The Ball!</h1>
+                    <button onclick="go('./game.html?play=game&game=https://scratch.mit.edu/projects/630865284/embed')">Play</button>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="end">
+        <div class="line"></div>
+        <ul class="links">
+            <li><a href="./games" target="_blank">Games</a></li>
+            <li><a href="https://github.com/devstorm0" target="_blank">Github</a></li>
+            <li class="right">Games made with Scratch and by DevStorm</li>
+        </ul>
+    </div>
+</body>
+<script src="src/js/index.js"></script>
+</html>
